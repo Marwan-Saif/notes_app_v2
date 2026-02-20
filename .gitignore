@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.project
+.fvm/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you actually want to keep
+# but settings.json and others should be ignored
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# Flutter/Dart-specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbol lookup and split-debug-info files
+**/*.debug.symbols
+**/*.arch_symbols
+
+# Android-specific
+.gradle/
+local.properties
+**/GeneratedPluginRegistrant.java
+*.keystore
+*.jks
+*.properties
+!**/gradle-wrapper.properties
+
+# iOS-specific
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/.symlinks/
+/ios/Config/config.xcconfig
+/ios/DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Generated files for Hive/JsonSerializable (Optional)
+# لو مش عاوز ترفع ملفات الـ .g.dart شيل الكومنت عن السطر اللي تحت
+# *.g.dart
+
+# Mac OS metadata
+.DS_Store
